@@ -4,7 +4,8 @@
   "description": "node and express projects",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./reciepe_connection/main.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/nilemato/ndp#readme",
   "dependencies": {
+    "cities": "^2.0.0",
     "express": "^4.18.1",
     "http-status-codes": "^2.2.0",
     "nodemon": "^2.0.20"
